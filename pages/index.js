@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import 'tailwindcss/tailwind.css';
 
+import axios from 'axios';
+
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen">
