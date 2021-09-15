@@ -2,7 +2,10 @@ import 'tailwindcss/tailwind.css';
 import axios from 'axios';
 
 export default function Home(props) {
-    
+    return (
+        <div>
+        </div>
+    );
 }
 
 export const getStaticProps = async () => {
